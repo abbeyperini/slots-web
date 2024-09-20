@@ -9,10 +9,10 @@
       <shots-component>
         <!-- <span slot="title">Shots!</span>
         <p slot="content">Yay!</p>
-        <img slot="image" src="./lil-jon.jpg" alt="happy lil jon" /> -->
+        <img slot="image" src="./lil-jon.jpg" alt="happy lil jon" />
+        <p>shots, shots, shots!</p> -->
       </shots-component>
       <div>
-        <p>Shots, shots, shots!</p>
       </div>
     </main>
     <template id="shots">
@@ -27,8 +27,13 @@
         p {
           color: #0f0f0ff7;
         }
+
+        img {
+          width: 300px;
+        }
       </style>
         <div class="shots-container">
+          <slot></slot>
           <h2><slot name="title">No shots</slot></h2>
           <p><slot name="content">Boo!</slot></p>
           <slot name="image">
