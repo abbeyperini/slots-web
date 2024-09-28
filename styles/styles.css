@@ -1,8 +1,17 @@
 body {
-  background-color: #D1CFE2;
+  background-color: #B8C0FF;
   color: #0f0f0ff7;
 }
 
 img {
   width: 500px;
+}
+
+h2 {
+  font-size: 6em;
+}
+
+p {
+  font-size: 4rem;
+  margin: 1rem;
 }
